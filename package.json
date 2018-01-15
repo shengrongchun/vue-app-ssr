@@ -50,6 +50,7 @@
   },
   "dependencies": {
     "axios": "^0.17.1",
+    "babel-polyfill": "^6.26.0",
     "fastclick": "^1.0.6",
     "highlight.js": "^9.12.0",
     "keycode": "^2.1.9",

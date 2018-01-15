@@ -1,3 +1,4 @@
+import "babel-polyfill"
 import Vue from 'vue'
 import VueUi from 'vue-ui'
 import App from './App.vue'
@@ -18,6 +19,7 @@ import codeTable from './components/pageComponents/codeTable'
 
 /*animate.css 动画引入*/
 import './assets/styles/animate.css'
+
 
 const components = {
     markDown,

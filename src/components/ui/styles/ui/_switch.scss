@@ -18,6 +18,7 @@
         display: inline-block;
         position: absolute;
         @include compatible(appearance,none);
+        opacity:0;
         cursor: pointer;
         height: 100%;
         width: 100%;

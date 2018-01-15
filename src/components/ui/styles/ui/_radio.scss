@@ -24,8 +24,8 @@
         & input {
             transition: all 0.5s;
             margin: 0;
-            user-select: none;
-            -webkit-appearance: none;
+            @include compatible(user-select,none);
+            @include compatible(appearance,none);
             white-space: nowrap;
             cursor: pointer;
             width: 100%;
